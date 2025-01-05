@@ -44,6 +44,7 @@ const skillItem = [
     
   ];
 
+
 const Skills = () => {
   return (
     <section className="section">
