@@ -4,7 +4,6 @@
  */
 
 
-import React from 'react'
 import Navbar from './Navbar'
 import { useState } from 'react'
 
@@ -38,7 +37,7 @@ const Header = () => {
             <Navbar navOpen={navOpen} />
         </div>
 
-        <a href="#contact" className='btn btn-secondary max-md:hidden md:justify-self-end'> Contact Me</a>
+        <a href="#contact" className='btn btn-secondary max-md:hidden md:justify-self-end'>Contate-me</a>
         
         
     </div>

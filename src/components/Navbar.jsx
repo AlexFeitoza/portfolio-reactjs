@@ -44,12 +44,12 @@ const Navbar = ({ navOpen }) => {
             ref: lastActiveLink
         },
         {
-            label: 'About',
+            label: 'Sobre',
             link: '#about',
             className: 'nav-link'
         },
         {
-            label: 'Work',
+            label: 'Portfolio',
             link: '#work',
             className: 'nav-link'
         },
