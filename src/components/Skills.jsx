@@ -33,7 +33,7 @@ const skillItem = [
       desc: 'Node Framework'
     },
     {
-      imgSrc: '/images/mongodb.svg',
+      imgSrc: '/images/mongodb-icon.svg',
       label: 'MongoDB',
       desc: 'Database'
     },
@@ -47,7 +47,22 @@ const skillItem = [
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
-    
+    {
+      imgSrc: '/images/nextjs-dark-logo.svg',
+      label: 'Next JS',
+      desc: 'Framework'
+    },
+    {
+      imgSrc: '/images/git-logo.svg',
+      label: 'Git',
+      desc: 'Ferramenta de linha de comando'
+    },
+    {
+      imgSrc: '/images/prisma-icon.svg',
+      label: 'Prisma',
+      desc: 'ORM'
+    },
+
   ];
 
 
