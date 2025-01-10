@@ -8,9 +8,9 @@ import Skillcard from "./Skillcard";
 
 const skillItem = [
     {
-      imgSrc: '/images/figma.svg',
-      label: 'Figma',
-      desc: 'Design tool'
+      imgSrc: '/images/typescript-logo.svg',
+      label: 'TypeScript',
+      desc: 'Web Server'
     },
     {
       imgSrc: '/images/css3.svg',
@@ -61,6 +61,11 @@ const skillItem = [
       imgSrc: '/images/prisma-icon.svg',
       label: 'Prisma',
       desc: 'ORM'
+    },
+    {
+      imgSrc: '/images/styledcomponents-icon.svg',
+      label: 'Styled Components',
+      desc: 'User Interface'
     },
 
   ];

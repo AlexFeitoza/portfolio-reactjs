@@ -23,8 +23,8 @@ const About = () => {
 
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]"> 
-                        Building Scalable Modern Websites for the Future
-                        Welcome! I&apos;m Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
+                    Construindo Websites Modernos e Escaláveis para o Futuro
+                    Bem-vindo! Eu sou Alex, um desenvolvedor Full Stack com talento para criar sites visualmente impressionantes e altamente funcionais. Combinando criatividade e expertise técnica, transformo sua visão em uma obra-prima digital que se destaca tanto em aparência quanto em desempenho.
                     </p>
 
                     <div className=" flex flex-wrap items-center gap-4 md:gap-7">
