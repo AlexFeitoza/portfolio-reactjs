@@ -48,7 +48,7 @@ const skillItem = [
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/nextjs-dark-logo.svg',
+      imgSrc: '/images/nextjs-light-logo.svg',
       label: 'Next JS',
       desc: 'Framework'
     },
