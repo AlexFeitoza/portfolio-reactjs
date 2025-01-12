@@ -10,7 +10,7 @@ const works = [
     {
       imgSrc: '/images/projeto-usuarios.png',
       title: 'Cadastro de Usuários FullStack',
-      tags: ['API', 'MVC', 'Development'],
+      imgTags: ['/images/react.svg'],
       projectLink: 'https://musify-5al0.onrender.com/'
     },
     {
@@ -56,12 +56,12 @@ const Work = () => {
             </h2>
 
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-                {works.map(({imgSrc, title, tags, projectLink }, key) => (
+                {works.map(({imgSrc, title, imgTags, projectLink }, key) => (
                     <ProjectCard 
                         key={key}
                         imgSrc={imgSrc}
                         title={title}
-                        tags={tags}
+                        imgTags={imgTags}
                         projectLink={projectLink}
                     />
                 ))}
