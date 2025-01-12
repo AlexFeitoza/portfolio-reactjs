@@ -22,9 +22,8 @@ const About = () => {
             <div className="container">
 
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
-                    <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]"> 
-                    Construindo Websites Modernos e Escaláveis para o Futuro
-                    Bem-vindo! Eu sou Alex, um desenvolvedor Full Stack com talento para criar sites visualmente impressionantes e altamente funcionais. Combinando criatividade e expertise técnica, transformo sua visão em uma obra-prima digital que se destaca tanto em aparência quanto em desempenho.
+                    <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] text-justify"> 
+                    Bem-vindo! Sou Alex, um desenvolvedor Full Stack apaixonado por criar aplicações web robustas, escaláveis e com ótimo desempenho. Combinando habilidades no front-end e back-end, transformamos sua visão em soluções digitais eficientes, que entregam tanto em funcionalidade quanto em experiência do usuário. Seja criando interfaces interativas ou arquitetando sistemas complexos, meu objetivo é sempre entregar produtos que não apenas atendam às expectativas, mas que se destacam.
                     </p>
 
                     <div className=" flex flex-wrap items-center gap-4 md:gap-7">
@@ -45,7 +44,7 @@ const About = () => {
                         }
 
                         <img 
-                        src="/images/logo.svg" 
+                        src="/images/logo-1.svg" 
                         alt="Logo"
                         width={30}
                         height={30} 

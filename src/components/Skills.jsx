@@ -72,7 +72,16 @@ const Skills = () => {
             </h2>
 
             <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+<<<<<<< Updated upstream
             Poderosas ferramentas e tecnologias que utilizo para criar sites e aplicativos excepcionais e de alto desempenho.
+=======
+<<<<<<< HEAD
+            Ferramentas e tecnologias poderosas que eu utilizo para criar sites e aplicações exclusivas e de alto desempenho.
+
+=======
+            Poderosas ferramentas e tecnologias que utilizo para criar sites e aplicativos excepcionais e de alto desempenho.
+>>>>>>> 815306a6d8abe0534c20a648e727a9574a60f4a9
+>>>>>>> Stashed changes
             </p>
 
             <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
