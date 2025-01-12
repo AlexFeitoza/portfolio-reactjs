@@ -8,9 +8,9 @@ import Skillcard from "./Skillcard";
 
 const skillItem = [
     {
-      imgSrc: '/images/typescript-logo.svg',
-      label: 'TypeScript',
-      desc: 'Web Server'
+      imgSrc: '/images/git-logo.svg',
+      label: 'Git',
+      desc: 'Versionamento de Código'
     },
     {
       imgSrc: '/images/css3.svg',
@@ -20,7 +20,7 @@ const skillItem = [
     {
       imgSrc: '/images/javascript.svg',
       label: 'JavaScript',
-      desc: 'Interaction'
+      desc: 'Interação'
     },
     {
       imgSrc: '/images/nodejs.svg',
@@ -35,7 +35,7 @@ const skillItem = [
     {
       imgSrc: '/images/mongodb-icon.svg',
       label: 'MongoDB',
-      desc: 'Database'
+      desc: 'Banco de Dados'
     },
     {
       imgSrc: '/images/react.svg',
@@ -47,16 +47,7 @@ const skillItem = [
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
-    {
-      imgSrc: '/images/nextjs-light-logo.svg',
-      label: 'Next JS',
-      desc: 'Framework'
-    },
-    {
-      imgSrc: '/images/git-logo.svg',
-      label: 'Git',
-      desc: 'Ferramenta de linha de comando'
-    },
+    
     {
       imgSrc: '/images/prisma-icon.svg',
       label: 'Prisma',
@@ -77,12 +68,11 @@ const Skills = () => {
         <div className="container">
 
             <h2 className="headline-2">
-                Essencial Tools I Use
+              Tecnologias e Ferramentas
             </h2>
 
             <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
-            Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
-
+            Poderosas ferramentas e tecnologias que utilizo para criar sites e aplicativos excepcionais e de alto desempenho.
             </p>
 
             <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
