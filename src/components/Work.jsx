@@ -17,8 +17,6 @@ const works = [
       "/images/prisma-icon.svg",
     ],
     projectLink: "https://github.com/AlexFeitoza/devclub-usuarios",
-    label: "Github",
-    href: "https://github.com/AlexFeitoza/devclub-usuarios",
   },
   {
     imgSrc: "/images/project-2.jpg",
