@@ -39,9 +39,9 @@ const works = [
     projectLink: "https://github.com/codewithsadee-org/wealthome",
   },
   {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    imgTags: ["eCommerce", "Development"],
+    imgSrc: "/images/conversor-moedas.png",
+    title: "Conversor de Moedas",
+    imgTags: ["/images/html5.svg", "/images/css3-icon.svg", "/images/javascript-icon.svg",],
     projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
     githubLink: "https://musify-5al0.onrender.com/",
   },
