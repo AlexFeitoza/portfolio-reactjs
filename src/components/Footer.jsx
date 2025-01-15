@@ -29,11 +29,11 @@ const sitemap = [
 const socials = [
     {
         label: 'GitHub',
-        href: 'https://www.github.com/codewithsadee-org'
+        href: 'https://github.com/AlexFeitoza'
     },
     {
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/codewithsadee'
+        href: 'https://www.linkedin.com/in/alex-feitozaa/'
     },
     {
         label: 'Instagram',
@@ -56,7 +56,7 @@ const Footer = () => {
                     
                         <div className="mb-10">
                             <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
-                                Let&apos;s work together today!
+                            Vamos trabalhar juntos hoje!
                             </h2>
 
                             <ButtonPrimary
@@ -70,7 +70,7 @@ const Footer = () => {
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
 
                         <div>
-                            <p className="mb-2">Sitemap</p>
+                            <p className="mb-2">Mapa do site</p>
 
                             <ul>
                                 {sitemap.map(({ label, href }, key) => (
@@ -122,7 +122,7 @@ const Footer = () => {
                     </a>
 
                     <p className="text-zinc-500 text-sm ">
-                        &copy; 2025 <span className="text-zinc-200">alexfeitozadev</span>
+                        &copy; 2025 <span className="text-zinc-200">alexfeitozadev@gmail.com</span>
                     </p>
                 </div>
 

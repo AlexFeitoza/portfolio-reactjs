@@ -50,7 +50,7 @@ const Contact = () => {
                     </h2>
 
                     <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] ">
-                        Reach out today to discuss your project needs and start collaborating on something amazing!
+                    Entre em contato hoje mesmo para discutir as necessidades do seu projeto e começar a colaborar em algo incrível!
                     </p>
 
                     <div className="flex items-center gap-2 mt-auto">
@@ -78,7 +78,7 @@ const Contact = () => {
                             <label
                                 htmlFor="name"
                                 className="label">
-                                Name
+                                Nome
                             </label>
 
                             <input
@@ -87,7 +87,7 @@ const Contact = () => {
                                 id="name"
                                 autoComplete="name"
                                 required
-                                placeholder="Alex Feitoza"
+                                placeholder="Digite seu nome"
                                 className="text-field"
                             />
                         </div>
@@ -105,7 +105,7 @@ const Contact = () => {
                                 id="email"
                                 autoComplete="email"
                                 required
-                                placeholder="alexfeitoza.dev@gmail.com"
+                                placeholder="Digite seu email"
                                 className="text-field"
                             />
                         </div>
@@ -134,7 +134,7 @@ const Contact = () => {
                         type="submit" 
                         className="btn btn-primary [&]:max-w-full w-full justify-center "
                     >
-                        Submit
+                        Enviar
                     </button>
 
                 </form>

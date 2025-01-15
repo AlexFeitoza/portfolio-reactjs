@@ -26,9 +26,9 @@ const works = [
     githubLink: "https://musify-5al0.onrender.com/",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    imgTags: ["Development", "API"],
+    imgSrc: "/images/api-backend.png",
+    title: "API Server (CRUD)",
+    imgTags: ["/images/nodejs.svg", "/images/expressjs.svg", "/images/prisma-icon.svg", "images/mongodb-icon.svg"],
     projectLink: "",
     githubLink: "https://musify-5al0.onrender.com/",
   },
