@@ -39,10 +39,7 @@ const socials = [
         label: 'Instagram',
         href: 'https://www.instagram.com/codewithsadee'
     },
-    {
-        label: 'CodePen',
-        href: 'https://codepen.io/codewithsadee'
-    }
+    
 ];
 
 
@@ -61,7 +58,7 @@ const Footer = () => {
 
                             <ButtonPrimary
                                 href="mailto:alexfeitoza.dev@gmail.com"
-                                label="Start project"
+                                label="Iniciar Projeto"
                                 icon="chevron_right"
                             />
                         </div>
@@ -114,7 +111,7 @@ const Footer = () => {
                     className=""
                     >
                         <img 
-                            src="/images/logo.svg"
+                            src="/images/logo-1.svg"
                             width={40}
                             height={40} 
                             alt="Logo" 
