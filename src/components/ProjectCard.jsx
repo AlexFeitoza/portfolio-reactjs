@@ -29,7 +29,8 @@ const ProjectCard = ({ imgSrc, title, imgTags, projectLink, classes }) => {
                 src={imgSrc}
                 alt={`Tag ${key}`}
                 style={{ width: "25px", height: "25px" }}
-                className="h-8 w-8 rounded-lg"
+                className="h-8 w-8 rounded-lg cursor-default"
+                onClick={(e) => e.stopPropagation()}
               />
             ))}
           </div>
