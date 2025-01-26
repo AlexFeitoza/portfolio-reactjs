@@ -10,23 +10,25 @@ import ProjectCard from "./ProjectCard";
 const Work = () => {
   const projects = [
     {
-      imgSrc: "/images/project1.png",
-      title: "E-commerce Website",
+      imgSrc: "/images/api-backend.png",
+      title: "Api (CRUD)",
       techIcons: [
         "/images/react.svg",
-        "/images/tailwindcss-icon.svg",
+        "/images/mongodb-icon.svg",
         "/images/nodejs.svg",
+        "/images/prisma-icon.svg"
       ],
       projectLink: "https://ecommerce-example.com",
       githubLink: "https://github.com/username/ecommerce",
     },
     {
-      imgSrc: "/images/project2.png",
-      title: "Social Media App",
+      imgSrc: "/images/projeto-usuarios.png",
+      title: "Cadastro de Usuários",
       techIcons: [
         "/images/react.svg",
-        "/images/firebase-icon.svg",
-        "/images/material-ui.svg",
+        "/images/nodejs.svg",
+        "/images/mongodb-icon.svg",
+        "/images/styledcomponents-icon.svg"
       ],
       projectLink: "https://socialmedia-example.com",
       githubLink: "https://github.com/username/socialmedia",
