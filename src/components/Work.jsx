@@ -3,74 +3,61 @@
  * @license Apache-2.0
  */
 
+
+
 import ProjectCard from "./ProjectCard";
 
-const works = [
-  {
-    imgSrc: "/images/projeto-usuarios.png",
-    title: "Cadastro de Usuários",
-    imgTags: [
-      "/images/react.svg",
-      "/images/styledcomponents-icon.svg",
-      "/images/nodejs.svg",
-      "images/mongodb-icon.svg",
-      "/images/prisma-icon.svg",
-    ],
-    projectLink: "https://github.com/AlexFeitoza/devclub-usuarios",
-  },
-  {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
-    imgTags: ["/images/html5.svg", "/images/css3-icon.svg", "/images/javascript-icon.svg", "/images/git-logo.svg"],
-    projectLink: "https://pixstock-official.vercel.app/",
-    githubLink: "https://musify-5al0.onrender.com/",
-  },
-  {
-    imgSrc: "/images/api-backend.png",
-    title: "API Server (CRUD)",
-    imgTags: ["/images/nodejs.svg", "/images/expressjs.svg", "/images/prisma-icon.svg", "images/mongodb-icon.svg"],
-    projectLink: "",
-    githubLink: "https://musify-5al0.onrender.com/",
-  },
-  {
-    imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    imgTags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
-  },
-  {
-    imgSrc: "/images/conversor-moedas.png",
-    title: "Conversor de Moedas",
-    imgTags: ["/images/html5.svg", "/images/css3-icon.svg", "/images/javascript-icon.svg",],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-    githubLink: "https://musify-5al0.onrender.com/",
-  },
-  {
-    imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    imgTags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
-    githubLink: "https://musify-5al0.onrender.com/",
-  },
-];
-
 const Work = () => {
-  return (
-    <section id="work" className="">
-      <div className="container">
-        <h2 className="headline-2 mb-8 mt-10 ">Portfolio</h2>
+  const projects = [
+    {
+      imgSrc: "/images/project1.png",
+      title: "E-commerce Website",
+      techIcons: [
+        "/images/react.svg",
+        "/images/tailwindcss-icon.svg",
+        "/images/nodejs.svg",
+      ],
+      projectLink: "https://ecommerce-example.com",
+      githubLink: "https://github.com/username/ecommerce",
+    },
+    {
+      imgSrc: "/images/project2.png",
+      title: "Social Media App",
+      techIcons: [
+        "/images/react.svg",
+        "/images/firebase-icon.svg",
+        "/images/material-ui.svg",
+      ],
+      projectLink: "https://socialmedia-example.com",
+      githubLink: "https://github.com/username/socialmedia",
+    },
+    {
+      imgSrc: "/images/conversor-moedas.png",
+      title: "Conversor de Moedas",
+      techIcons: [
+        "/images/html5.svg",
+        "/images/css3-icon.svg",
+        "/images/javascript-icon.svg",
+      ],
+      projectLink: "https://alexfeitoza.github.io/conversor-de-moedas/",
+      githubLink: "https://github.com/AlexFeitoza/conversor-de-moedas",
+    },
+  ];
 
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ imgSrc, title, imgTags, projectLink }, key) => (
-            <ProjectCard
-              key={key}
-              imgSrc={imgSrc}
-              title={title}
-              imgTags={imgTags}
-              projectLink={projectLink}
-            />
-          ))}
-        </div>
+  return (
+    <section id="portfolio" className="container py-10">
+      <h2 className="text-3xl font-bold text-white mb-8">Portfolio</h2>
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            imgSrc={project.imgSrc}
+            title={project.title}
+            techIcons={project.techIcons}
+            projectLink={project.projectLink}
+            githubLink={project.githubLink}
+          />
+        ))}
       </div>
     </section>
   );

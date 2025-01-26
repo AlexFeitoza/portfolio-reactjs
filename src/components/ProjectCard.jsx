@@ -3,53 +3,54 @@
  * @license Apache-2.0
  */
 
-import PropTypes from "prop-types";
-import GithubIcon from "./GithubIcon";
 
-const ProjectCard = ({ imgSrc, title, imgTags, projectLink, classes }) => {
+import PropTypes from "prop-types";
+import { Github, ExternalLink } from "lucide-react";
+
+const ProjectCard = ({ imgSrc, title, techIcons, projectLink, githubLink }) => {
   return (
-    <div
-      className={
-        "relative p-5 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors grid grid-rows-[auto_1fr_auto] min-h-[300px] " +
-        classes
-      }
-    >
-      <figure className="img-box aspect-square rounded-lg mb-4 ">
-        <img src={imgSrc} alt={title} loading="lazy" className="img-cover" />
+    <div className="p-5 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 transition-colors ring-1 ring-zinc-50/5 grid grid-rows-[auto_1fr_auto] min-h-[320px]">
+      {/* Project Image */}
+      <figure className="aspect-video rounded-lg overflow-hidden mb-4">
+        <img src={imgSrc} alt={title} loading="lazy" className="w-full h-full object-cover" />
       </figure>
 
-      <div className="flex items-center justify-between gap-4">
-        <div>
-          <h3 className="title-1 mb-3 ">{title}</h3>
-
-          <div className="flex flex-wrap items-center gap-2">
-            {imgTags.map((imgSrc, key) => (
-              <img
-                key={key}
-                src={imgSrc}
-                alt={`Tag ${key}`}
-                style={{ width: "25px", height: "25px" }}
-                className="h-8 w-8 rounded-lg cursor-default"
-                onClick={(e) => e.stopPropagation()}
-              />
-            ))}
-          </div>
-        </div>
-
-        <div className="w-8 h-8 grid place-items-center bg-sky-400 text-zinc-950 shirink-0 rounded-md ">
-          <span className="material-symbols-rounded" aria-hidden="true">
-            <GithubIcon />
-          </span>
-        </div>
-
-        <div className="w-8 h-8 grid place-items-center bg-sky-400 text-zinc-950 shirink-0 rounded-md ">
-          <span className="material-symbols-rounded" aria-hidden="true">
-            public
-          </span>
+      {/* Project Title and Tech Icons */}
+      <div className="mb-4">
+        <h3 className="text-xl font-semibold mb-3 text-white">{title}</h3>
+        <div className="flex flex-wrap items-center gap-2">
+          {techIcons.map((iconSrc, index) => (
+            <img
+              key={index}
+              src={iconSrc}
+              alt={`Technology ${index}`}
+              className="w-8 h-8 rounded-md bg-zinc-700 p-1"
+            />
+          ))}
         </div>
       </div>
 
-      <a href={projectLink} target="_blank" className="absolute inset-0 "></a>
+      {/* Action Buttons */}
+      <div className="flex items-center justify-between mt-auto">
+        <a
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 bg-zinc-700 hover:bg-zinc-600 text-white rounded-md"
+        >
+          <Github size={20} />
+          <span>GitHub</span>
+        </a>
+        <a
+          href={projectLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 bg-sky-500 hover:bg-sky-400 text-white rounded-md"
+        >
+          <ExternalLink size={20} />
+          <span>Live Demo</span>
+        </a>
+      </div>
     </div>
   );
 };
@@ -57,9 +58,9 @@ const ProjectCard = ({ imgSrc, title, imgTags, projectLink, classes }) => {
 ProjectCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  imgTags: PropTypes.array,
-  projectLink: PropTypes.string,
-  classes: PropTypes.string,
+  techIcons: PropTypes.arrayOf(PropTypes.string).isRequired,
+  projectLink: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;
