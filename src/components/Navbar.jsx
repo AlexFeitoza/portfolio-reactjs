@@ -1,3 +1,11 @@
+/**
+ * @copyright 2024 codewithsadee
+ * @license Apache-2.0
+ */
+
+
+
+
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
@@ -36,18 +44,18 @@ const Navbar = ({ navOpen }) => {
             ref: lastActiveLink
         },
         {
-            label: 'About',
+            label: 'Sobre',
             link: '#about',
             className: 'nav-link'
         },
         {
-            label: 'Work',
-            link: '#work',
+            label: 'Skills',
+            link: '#skills',
             className: 'nav-link'
         },
         {
-            label: 'Reviews',
-            link: '#reviews',
+            label: 'Portfolio',
+            link: '#work',
             className: 'nav-link'
         },
         {

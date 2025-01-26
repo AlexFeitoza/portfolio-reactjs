@@ -1,4 +1,9 @@
-import React from 'react'
+/**
+ * @copyright 2024 codewithsadee
+ * @license Apache-2.0
+ */
+
+
 import Navbar from './Navbar'
 import { useState } from 'react'
 
@@ -14,7 +19,7 @@ const Header = () => {
           <a
             href="/"
             className='logo'>
-            <img src="/images/logo.svg" 
+            <img src="/images/logo-1.svg" 
             width={40}
             height={40}
             alt="Alex Feitoza" />
@@ -32,7 +37,7 @@ const Header = () => {
             <Navbar navOpen={navOpen} />
         </div>
 
-        <a href="#contact" className='btn btn-secondary max-md:hidden md:justify-self-end'> Contact Me</a>
+        <a href="#contact" className='btn btn-secondary max-md:hidden md:justify-self-end'>Contate-me</a>
         
         
     </div>
