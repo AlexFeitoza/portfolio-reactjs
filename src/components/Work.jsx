@@ -11,6 +11,17 @@ const Work = () => {
   const projects = [
     {
       imgSrc: "/images/api-backend.png",
+      title: "Portfolio",
+      techIcons: [
+        "/images/react.svg",
+        "/images/nodejs.svg",
+        "/images/tailwindcss.svg"
+      ],
+      projectLink: "https://ecommerce-example.com",
+      githubLink: "https://github.com/AlexFeitoza/portfolio-reactjs",
+    },
+    {
+      imgSrc: "/images/api-backend.png",
       title: "Api (CRUD)",
       techIcons: [
         "/images/react.svg",
