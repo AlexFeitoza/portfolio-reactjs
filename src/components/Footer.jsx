@@ -13,15 +13,15 @@ const sitemap = [
         href: '#home'
     },
     {
-        label: 'About',
+        label: 'Sobre',
         href: '#about'
     },
     {
-        label: 'Work',
-        href: '#work'
+        label: 'Portfolio',
+        href: '#portfolio'
     },
     {
-        label: 'Contact me',
+        label: 'Contato',
         href: '#contact'
     }
 ];

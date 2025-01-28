@@ -3,8 +3,6 @@
  * @license Apache-2.0
  */
 
-
-
 import ProjectCard from "./ProjectCard";
 
 const Work = () => {
@@ -15,7 +13,7 @@ const Work = () => {
       techIcons: [
         "/images/react.svg",
         "/images/nodejs.svg",
-        "/images/tailwindcss.svg"
+        "/images/tailwindcss.svg",
       ],
       projectLink: "https://ecommerce-example.com",
       githubLink: "https://github.com/AlexFeitoza/portfolio-reactjs",
@@ -27,7 +25,7 @@ const Work = () => {
         "/images/react.svg",
         "/images/mongodb-icon.svg",
         "/images/nodejs.svg",
-        "/images/prisma-icon.svg"
+        "/images/prisma-icon.svg",
       ],
       projectLink: "https://ecommerce-example.com",
       githubLink: "https://github.com/username/ecommerce",
@@ -39,7 +37,7 @@ const Work = () => {
         "/images/react.svg",
         "/images/nodejs.svg",
         "/images/mongodb-icon.svg",
-        "/images/styledcomponents-icon.svg"
+        "/images/styledcomponents-icon.svg",
       ],
       projectLink: "https://socialmedia-example.com",
       githubLink: "https://github.com/username/socialmedia",
@@ -58,19 +56,21 @@ const Work = () => {
   ];
 
   return (
-    <section id="portfolio" className="container py-10">
-      <h2 className="text-3xl font-bold text-white mb-8">Portfolio</h2>
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            imgSrc={project.imgSrc}
-            title={project.title}
-            techIcons={project.techIcons}
-            projectLink={project.projectLink}
-            githubLink={project.githubLink}
-          />
-        ))}
+    <section id="portfolio" className="section">
+      <div className="container">
+        <h2 className="headline-2 mb-7">Portfolio</h2>
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              imgSrc={project.imgSrc}
+              title={project.title}
+              techIcons={project.techIcons}
+              projectLink={project.projectLink}
+              githubLink={project.githubLink}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
