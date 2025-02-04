@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard";
 const Work = () => {
   const projects = [
     {
-      imgSrc: "/images/api-backend.png",
+      imgSrc: "/images/portfolio-port.png",
       title: "Portfolio",
       techIcons: [
         "/images/react.svg",
