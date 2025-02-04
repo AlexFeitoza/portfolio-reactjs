@@ -13,15 +13,15 @@ const sitemap = [
         href: '#home'
     },
     {
-        label: 'About',
+        label: 'Sobre',
         href: '#about'
     },
     {
-        label: 'Work',
-        href: '#work'
+        label: 'Portfolio',
+        href: '#portfolio'
     },
     {
-        label: 'Contact me',
+        label: 'Contato',
         href: '#contact'
     }
 ];
@@ -111,7 +111,7 @@ const Footer = () => {
                     className=""
                     >
                         <img 
-                            src="/images/logo-1.svg"
+                            src="/images/logo-ultimate.svg"
                             width={40}
                             height={40} 
                             alt="Logo" 

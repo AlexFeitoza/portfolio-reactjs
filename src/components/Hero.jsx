@@ -15,7 +15,7 @@ const Hero = () => {
 
                     <div className="flex items-center gap-3">
                         <figure className="img-box w-9 h-9 rounded-lg">
-                            <img src="/images/avatar-1.jpg"
+                            <img src="/images/alex-avatar2.jpg"
                                 width={40}
                                 height={40}
                                 alt="Alex feitoza portrait"
@@ -38,6 +38,8 @@ const Hero = () => {
 
                     <div className="flex items-center gap-3 ">
                         <ButtonPrimary 
+                        href={"/images/curriculum-25.pdf"}
+                        target="_blank"
                         label="Download CV"
                         icon="download" />
 

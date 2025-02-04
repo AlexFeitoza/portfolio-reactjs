@@ -11,7 +11,7 @@ const ProjectCard = ({ imgSrc, title, techIcons, projectLink, githubLink }) => {
   return (
     <div className="p-5 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 transition-colors ring-1 ring-zinc-50/5 grid grid-rows-[auto_1fr_auto] min-h-[320px]">
       {/* Project Image */}
-      <figure className="aspect-video rounded-lg overflow-hidden mb-4">
+      <figure className="aspect-[4/3] rounded-lg overflow-hidden mb-4">
         <img src={imgSrc} alt={title} loading="lazy" className="w-full h-full object-cover" />
       </figure>
 
