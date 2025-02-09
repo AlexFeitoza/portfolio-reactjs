@@ -15,7 +15,7 @@ const Work = () => {
         "/images/nodejs.svg",
         "/images/tailwindcss.svg",
       ],
-      projectLink: "https://ecommerce-example.com",
+      projectLink: "alexfeitoza-portfolio.vercel.app",
       githubLink: "https://github.com/AlexFeitoza/portfolio-reactjs",
     },
     {
@@ -36,11 +36,12 @@ const Work = () => {
       techIcons: [
         "/images/react.svg",
         "/images/nodejs.svg",
+        "/images/expressjs.svg",
         "/images/mongodb-icon.svg",
         "/images/styledcomponents-icon.svg",
       ],
-      projectLink: "https://socialmedia-example.com",
-      githubLink: "https://github.com/username/socialmedia",
+      projectLink: "",
+      githubLink: "https://github.com/AlexFeitoza/devclub-usuarios",
     },
     {
       imgSrc: "/images/conversor-moedas.png",

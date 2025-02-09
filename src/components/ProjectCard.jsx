@@ -48,7 +48,7 @@ const ProjectCard = ({ imgSrc, title, techIcons, projectLink, githubLink }) => {
           className="flex items-center gap-2 px-4 py-2 bg-sky-500 hover:bg-sky-400 text-white rounded-md"
         >
           <ExternalLink size={20} />
-          <span>Live Demo</span>
+          <span>Deploy</span>
         </a>
       </div>
     </div>
